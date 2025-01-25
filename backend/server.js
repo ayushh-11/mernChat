@@ -15,7 +15,7 @@ dotenv.config(); // Load environment variables
 // Middleware
 app.use(express.json()); // For parsing JSON
 app.use(cors({
-    origin: "https://mernchat-ulpl.onrender.com/",
+    origin: "https://mernchat-ulpl.onrender.com",
     credentials: true,
 }));
 
